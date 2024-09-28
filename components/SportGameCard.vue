@@ -7,6 +7,7 @@ interface Props {
   buttonText: string
 }
 
+// TODO: Fix this
 const props = defineProps<Props>()
 
 </script>

@@ -1,0 +1,118 @@
+.header-wrapper {
+  background: linear-gradient(to bottom, #1e90ff, #4169e1);
+  width: 100%;
+  z-index: 999;
+}
+
+.header-wrapper__top {
+  height: 40px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.top-inner,
+.bottom-inner {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.top-lang {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.icon-lang {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.icon-lang.vi {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg');
+}
+
+.lang-select {
+  cursor: pointer;
+  position: relative;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.arrow-down {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: 5px;
+}
+
+.header-wrapper__bottom {
+  height: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  position: relative;
+}
+
+.nav-item.active {
+  font-weight: bold;
+}
+
+.hot-label {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.header-actions {
+  display: flex;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.action-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
